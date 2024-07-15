@@ -1,0 +1,41 @@
+
+.project {
+    width: 100%;
+    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+}
+.flex {
+   height: 500px;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   flex-shrink: 1;
+  justify-content: center;
+}
+.image {
+    height: 250px;
+    border-radius: 50%;
+    
+}
+.second {
+    margin-top: 20px;
+}
+@media (max-width: 1200px) {
+    .project {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+   
+}
+body {
+    background-color: antiquewhite;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#subject {
+    color: palevioletred;
+    display: flex;
+        justify-content: center;
+}
